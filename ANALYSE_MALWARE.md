@@ -1,6 +1,5 @@
 # RAPPORT D'ANALYSE DE MALWARE
 **Date:** 2025-12-01
-**Analyste:** Analyse Claude Code
 **Environnement:** Kali Linux (isolé)
 
 ---
