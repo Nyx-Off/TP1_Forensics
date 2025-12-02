@@ -1,0 +1,28 @@
+=== RAPPORT DE VÉRIFICATION D'INTÉGRITÉ ===
+Date: $(date)
+Hostname: $(hostname)
+Kernel: $(uname -r)
+Opérateur: $(whoami)
+
+SOURCE: /dev/sda1 (EFI System Partition)
+Taille: 1023410176 bytes (976 Mo)
+Type: FAT32
+
+MD5:    f38ce30b3bb951160988c3c888badf95
+SHA1:   13e94fc666cea873c72873fed00b1e00c91aa0de
+SHA256: cc68e7dcb1a0918e3d9aa47119f4226b7a4a1dc1c2ec7fa1fcfb46ce3f8c1402
+
+IMAGE: sda1.img
+Taille: 1023410176 bytes (976 Mo)
+Type: DOS/MBR boot sector, FAT32
+
+MD5:    f38ce30b3bb951160988c3c888badf95
+SHA1:   13e94fc666cea873c72873fed00b1e00c91aa0de
+SHA256: cc68e7dcb1a0918e3d9aa47119f4226b7a4a1dc1c2ec7fa1fcfb46ce3f8c1402
+
+VERIFICATION:
+✅ MD5    : PASS - Hashes identiques
+✅ SHA1   : PASS - Hashes identiques
+✅ SHA256 : PASS - Hashes identiques
+
+CONCLUSION: L'image est une copie bit-à-bit EXACTE de la source.

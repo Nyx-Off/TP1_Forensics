@@ -1,0 +1,51 @@
+=== MÉTADONNÉES D'ACQUISITION DISQUE ===
+Date: 2 décembre 2025, 13:40:14
+Hostname: Sylren
+Opérateur: nyx
+Kernel: 6.16.8+kali-amd64
+Distribution: Kali Linux
+
+SOURCE:
+  Device: /dev/sda1
+  Type: EFI System Partition
+  Filesystem: FAT32
+  Taille: 976 Mo (1 023 410 176 bytes)
+  Point de montage: /boot/efi
+  Utilisation: 1% (160 Ko)
+
+DESTINATION:
+  Fichier: sda1.img
+  Chemin: /home/nyx/Téléchargements/Malware/VIRUS/copie_disque/images/
+  Taille: 976 Mo (1 023 410 176 bytes)
+
+MÉTHODE D'ACQUISITION:
+  Outil: dd (GNU coreutils)
+  Commande: dd if=/dev/sda1 of=sda1.img bs=4M conv=noerror,sync status=progress
+  Block size: 4 Mo
+  Options: noerror (continue sur erreur), sync (remplissage), progress
+  Durée: 4,59 secondes
+  Vitesse: 223 Mo/s
+  Blocks: 244 enregistrements de 4 Mo
+
+HASHES SOURCE:
+  MD5:    f38ce30b3bb951160988c3c888badf95
+  SHA1:   13e94fc666cea873c72873fed00b1e00c91aa0de
+  SHA256: cc68e7dcb1a0918e3d9aa47119f4226b7a4a1dc1c2ec7fa1fcfb46ce3f8c1402
+
+HASHES IMAGE:
+  MD5:    f38ce30b3bb951160988c3c888badf95
+  SHA1:   13e94fc666cea873c72873fed00b1e00c91aa0de
+  SHA256: cc68e7dcb1a0918e3d9aa47119f4226b7a4a1dc1c2ec7fa1fcfb46ce3f8c1402
+
+VÉRIFICATION D'INTÉGRITÉ:
+  ✅ MD5    : PASS
+  ✅ SHA1   : PASS
+  ✅ SHA256 : PASS
+  
+  Statut: COPIE BIT-À-BIT VÉRIFIÉE ET AUTHENTIQUE
+
+NOTES:
+  - Image créée sans erreur
+  - Format compatible avec tous les outils forensiques
+  - Chaîne de traçabilité documentée
+  - Prête pour analyse forensique
