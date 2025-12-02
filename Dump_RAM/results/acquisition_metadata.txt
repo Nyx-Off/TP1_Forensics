@@ -1,0 +1,5 @@
+mar. 02 déc. 2025 11:04:20 CET
+Linux Sylren 6.16.8+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.16.8-1kali1 (2025-09-24) x86_64 GNU/Linux
+               total       utilisé      libre     partagé tamp/cache   disponible
+Mem:            23Gi       8,6Gi       5,6Gi       2,6Gi        12Gi        14Gi
+Échange:        12Gi          0B        12Gi

@@ -1,0 +1,14 @@
+=== INFORMATION D'ACQUISITION MÉMOIRE ===
+Date et heure: $(date)
+Hostname: $(hostname)
+Utilisateur: $(whoami)
+Kernel: $(uname -r)
+Architecture: $(uname -m)
+RAM totale: $(free -h | grep Mem | awk '{print $2}')
+Méthode: LiME kernel module v2.0
+Format: LiME format (compatible Volatility)
+Fichier: ram_dump.lime
+Taille: 12G
+MD5: ba94611b0be2a89117a3033ea12063f6
+SHA1: 29092d21b39f59e155f44979433683d2a66a0705
+SHA256: 481ad3a47fb48aace25f58618a8d056904620f867ef71a1a3b3bc734cd2b7626
